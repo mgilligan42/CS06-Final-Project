@@ -1,0 +1,114 @@
+<content>
+    <house name='Gryffindor'>
+        <announcement>
+            <text>First Quidditch match of the year will be between Gryffindor and Ravenclaw Sunday October 15th at 11am. Come out and show your house pride.</text>
+            <date>Sep 20 2016</date>
+        </announcement>
+        <announcement>
+            <text>Students are reminded not to be outside of their common rooms after curfew.</text>
+            <date>Sep 18 2016</date>
+        </announcement>
+        <announcement>
+            <text>The first Hogsmede weekend of the year will be September 24-25. Students will be allowed to leave after breakfast and are expected back in the castle by dinnertime.</text>
+            <date>Sep 8 2016</date>
+        </announcement>
+        <announcement>
+            <text>Quidditch tryouts Saturday September 10th at 10am</text>
+            <date>Sep 4 2016</date>
+        </announcement>
+        <announcement>
+            <text>Transfiguaration tutoring is Mondays and Wednesdays after dinner in the common room.</text>
+            <date>Sep 3 2016</date>
+        </announcement>
+        <announcement>
+            <text>Party in the common room this Saturday to kick off the start of the school year.</text>
+            <date>Sep 2 2016</date>
+        </announcement>
+        <announcement>
+            <text>Professor McGonnagle's office hours are from 4-6 Mondays, Tuesdays, and Fridays and 5-8 Wednesdays and Thursdays.</text>
+            <date>Sep 1 2016</date>
+        </announcement>
+    </house>
+    <house name='Hufflepuff'>
+        <announcement>
+            <text>Herbology Tutoring at 7pm in the Hufflepuff common room. All houses welcome so don't be afraid to bring your friends from other houses.</text>
+            <date>Sep 28 2016</date>
+        </announcement>
+        <announcement>
+            <text>The Muggle Studies Club is looking for Muggle-Borns with at least an E on their OWLs to help run the group review session. Extra credit will be awarded to anyone who leads a session.</text>
+            <date>Sep 12 2016</date>
+        </announcement>
+        <announcement>
+            <text>The first Hogsmede weekend of the year will be September 24-25. Students will be allowed to leave after breakfast and are expected back in the castle by dinnertime.</text>
+            <date>Sep 8 2016</date>
+        </announcement>
+        <announcement>
+            <text>Weekly tutoring sessions will start after the second week of school. Expect an announcement with the times sometime in the next two weeks.</text>
+            <date>Sep 5 2016</date>
+        </announcement>
+        <announcement>
+            <text>Library hours are from 8 am to 9 pm on weekdays and 10 am to 11 pm on weekends. Make sure you're back in your common room before curfew.</text>
+            <date>Sep 2 2016</date>
+        </announcement>
+        <announcement>
+            <text>Welcome everyone to a new year at Hogwarts. I hope everyone had a good summer and I look forward to seeing you all in herbology and meeting our new first years. -Professor Sprout, Head of Hufflepuff House</text>
+            <date>Sep 1 2016</date>
+        </announcement>
+    </house>
+    <house name='Ravenclaw'>
+        <announcement>
+            <text>First Quidditch match of the year will be between Gryffindor and Ravenclaw Sunday October 15th at 11am. Come out and show your house pride.</text>
+            <date>Sep 20 2016</date>
+        </announcement>
+        <announcement>
+            <text>Sign up for in-house tutoring today. Talk to one of the prefects for details.</text>
+            <date>Sep 19 2016</date>
+        </announcement>
+        <announcement>
+            <text>The in-house spell crafting competition is being run this year by seventh years Jessica Marner and Benjamin Densen. Please talk to them if you want to help with organizing. Sign-ups for the actual contest will be up by the end of the month</text>
+            <date>Sep 9 2016</date>
+        </announcement>
+        <announcement>
+            <text>The first Hogsmede weekend of the year will be September 24-25. Students will be allowed to leave after breakfast and are expected back in the castle by dinnertime.</text>
+            <date>Sep 8 2016</date>
+        </announcement>
+        <announcement>
+            <text>Binns boring you out of your skull? Worried about your OWL and NEWT scores? Join the history club today and about wizarding history you've never heard of.</text>
+            <date>Sep 3 2016</date>
+        </announcement>
+        <announcement>
+            <text>Library hours are from 8 am to 9 pm on weekdays and 10 am to 11 pm on weekends. Make sure you're back in your common room before curfew.</text>
+            <date>Sep 2 2016</date>
+        </announcement>
+        <announcement>
+            <text>All Ravenclaw first years, fifth years, and seventh years are required to attend a lecture on maintaining healthy study habits the first weekend of the school year. This will take place in the common room at 2pm on September 3rd. Attendance is mandatory.</text>
+            <date>Sep 1 2016</date>
+        </announcement>
+    </house>
+    <house name='Slytherin'>
+        <announcement>
+            <text>Remedial Potions lessons with Professor Snape will start this Thursday after dinner.</text>
+            <date>Oct 2 2016</date>
+        </announcement>
+        <announcement>
+            <text>Please keep any and all confrontations with members of other houses away from the eyes of Professors or Prefects unless you want to get in trouble.</text>
+            <date>Sep 29 2016</date>
+        </announcement>
+        <announcement>
+            <text>The first Hogsmede weekend of the year will be September 24-25. Students will be allowed to leave after breakfast and are expected back in the castle by dinnertime.</text>
+            <date>Sep 8 2016</date>
+        </announcement>
+        <announcement>
+            <text>Quidditch tryouts are Sunday September 10th at 11am on the Quidditch pitch. Tardiness will result in immediate disqualification from the team.</text>
+            <date>Sep 4 2016</date>
+        </announcement>
+        <announcement>
+            <text>Library hours are from 8 am to 9 pm on weekdays and 10 am to 11 pm on weekends. Make sure you're back in your common room before curfew.</text>
+            <date>Sep 2 2016</date>
+        </announcement>
+        <announcement>
+            <text>This is a reminder to upper year students that if you want to meet with Professor Snape for any reason you need to make an appointment with him first.</text>
+            <date>Sep 1 2016</date>
+        </announcement>
+    </house>
+</content>
