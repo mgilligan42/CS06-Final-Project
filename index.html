@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <title>Hogwarts House Main Page</title>
+        <meta charset="utf-8">
+        <meta name="Keywords" content="Harry Potter, Hogwarts, Hogwarts Houses, Gryffindor, Hufflepuff, Ravenclaw, Slytherin">
+        <meta name="Description" content="The front page for a hypothetical Hogarts website containing an announcements board that teachers can login and edit">
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> 
+        <link rel="stylesheet" href="slate.min.css">
+        <!--Bootstrap themes and stylesheets-->
+        
+        <link href="https://fonts.googleapis.com/css?family=Domine" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+        <!--Google fonts-->
+        
+        <link href='extraStyles.css' rel='stylesheet'>
+        <script src='logins.js'></script>
+        <!--My CSS and Javascript-->
+    </head>
+    <body>
+        <nav class="navbar navbar-default">
+          <div class="container-fluid">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a href="#"><img src="hogwarts-crest-small.jpg" alt="" class="img-responsive"></a>
+              <!--Hogwarts Crest Image-->
+            </div> <!--End navbar-header -->
+        
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="index.html">Home<span class="sr-only">(current)</span></a></li>
+                <li class='gryffindor'><a href="#">Gryffindor</a></li>
+                <li class='hufflepuff'><a href="#">Hufflepuff</a></li>
+                <li class='ravenclaw'><a href="#">Ravenclaw</a></li>
+                <li class='slytherin'><a href="#">Slytherin</a></li>
+              </ul>
+              <ul class="nav navbar-nav navbar-right">
+                <li><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal" id="loginform">Login</button></li>
+              </ul>
+            </div> <!-- End navbar-collapse -->
+            
+          </div>
+        </nav> <!-- End Navbar -->
+        
+        <div class='container'>
+            <h1>Hogwarts School for Witchcraft and Wizardry</h1>
+            <img id="headerIMG" src='hogwarts-header.jpg' alt="Photograph of Hogwarts Castle" class='img-responsive img-rounded'>
+            <br /> <!--Heading Stuff-->
+            
+            <!--Start Grid -->
+            <div class='row'>
+                <!--Gryffindor Column -->
+                <div class='panel col-xs-12 col-md-6 col-lg-3 gryffindor'>
+                    <div class='panel-heading'>
+                        <h2 class='panel-title'>Gryffindor</h2>    
+                    </div>
+                    <div class='panel-body'>
+                        <ul class='editme' id='gryff'>
+                            <!--Announcements go here-->
+                        </ul>
+                    </div>
+                </div>
+                <!--Hufflepuff Column -->
+                <div class='panel col-xs-12 col-md-6 col-lg-3 hufflepuff'>
+                    <div class='panel-heading'>
+                        <h2 class='panel-title'>Hufflepuff</h2>    
+                    </div>
+                    <div class='panel-body'>
+                        <ul class='editme' id='puff'>
+                            <!--Announcements go here-->
+                        </ul>
+                    </div>
+                </div>
+                <!--Ravenclaw Column -->
+                <div class='panel col-xs-12 col-md-6 col-lg-3 ravenclaw'>
+                    <div class='panel-heading'>
+                        <h2 class='panel-title'>Ravenclaw</h2>
+                        <!--<img src='ravenclaw-crest-sm.jpg' />-->    
+                    </div>
+                    <div class='panel-body'>
+                        <ul class='editme' id='raven'>
+                            <!--Announcements go here-->
+                        </ul>
+                    </div>
+                </div>
+                <!--Slytherin Column -->
+                <div class='panel col-xs-12 col-md-6 col-lg-3 slytherin'>
+                    <div class='panel-heading'>
+                        <h2 class='panel-title'>Slytherin</h2>    
+                    </div>
+                    <div class='panel-body'>
+                        <ul class='editme' id='snake'>
+                            <!--Announcements go here-->
+                        </ul>
+                    </div>
+                </div>
+            </div> <!--End row/grid system-->
+        </div> <!--End container-->
+        
+        <!--Modals-->
+        
+        <!--Login Modal-->
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Login</h4>
+                  </div>
+                  <div class="modal-body">
+                    <form class='form-group'>
+                        <div class='form-group'>
+                    	   <label for='username'>Username:</label>
+                    	       <input type='email' id='username' class='form-control' placeholder='Username' required='required' />
+                         </div>
+                         <div class='form-group'>
+                    	   <label for='password'>Password:</label>
+                    	       <input type='password' id='password' class='form-control' placeholder='Password' required='required' />
+                         </div>
+                            <button type="submit" class="btn btn-success" data-dismiss="modal" id="login">Login</button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+        </div>
+        <!--Edit Modal-->
+        <div class="modal fade" id="editModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="editLabel">Edit</h4>
+                  </div>
+                  <div class="modal-body">
+                    <form class='form-group'>
+                        <div class='form-group'>
+                    	     <label for='editA'>Announcement:</label>
+                    	       <textarea id='editA' class='form-control'></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-success" data-dismiss="modal" id="edit-Submit">Submit</button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+        </div>
+        
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js'></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <!--Bootstrap Javascript-->
+    <script src='finalCode.js'></script>
+    <!--My javascript-->
+    </body>
+</html>

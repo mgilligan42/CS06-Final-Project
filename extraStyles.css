@@ -1,0 +1,29 @@
+.gryffindor {
+    color:#B92427;
+}
+.hufflepuff {
+    color:#F5B123;
+}
+.ravenclaw {
+    color:#2864B0;
+}
+.slytherin {
+    color:#2F8032;
+}
+h1{
+    text-align:center;
+    font-family: 'Domine', serif;
+    font-size: 3em;
+}
+.panel-title{
+    text-align:center;
+    font-size:2em;
+    }
+body{
+    font-family: 'Merriweather', serif;
+}
+#headerIMG{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
